@@ -1,0 +1,104 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+#navbar1
+{
+	border: #291B8E;
+}
+.Auditorium
+{
+	padding: 150px 150px 150px 150px;
+	background-image: url(auditoriums.PNG);
+	height: 500px;
+	width: 1350px;
+	text-align: right;
+    float: right;
+}
+.Logo
+{
+	float: left;
+	height: 300px;
+	width: 300px;
+	border: 1px #7624C7 solid;
+	border-radius: 12px 12px 12px 12px;
+}
+.parent
+{
+	width: 75%;
+	margin: 71px ;
+   
+	color: black;
+	display: grid;
+	grid-template-rows: repeat(4,150px);
+    grid-template-columns: repeat(3, 1fr) 150px;
+    grid-gap: 30px;
+}
+.child1
+{
+   grid-column: 1/4;
+   font-size: 20px;
+   align-items: center;
+
+}
+.child2
+{
+	
+	width: 100px;
+}
+.child3
+
+{
+	font-size: 22px;
+}
+.Social
+{
+	padding: 10px;
+	margin: 10px;
+	display: grid;
+	
+}
+.btnparent
+{
+	margin: 0;
+	padding: 0;
+	height: 1vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.btn
+{
+	font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1E90FF;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: 0 0 10px rgba(0,0,0.0.1);
+    -webkit-transition-property : box-shadow,transform;
+    transition-property: box-shadow,transform;	
+}
+.btn:hover, .btn:focus , .btn:active
+{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	-webkit-transform : scale(1.1);
+	transform: scale(1.1);
+}
+.contact
+{
+	background-color: #4D0DD1;
+	color: white;
+	height: 700px;
+	
+	
+}
